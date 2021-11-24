@@ -9,3 +9,9 @@ Agora criando a lista de usuarios com o banco de dados.
 Criado a lista de usuarios.
 
 Criando formulario para inserir Usuarios.
+
+Feito os botões de Editar e deletar.
+
+Bootstrap não funciona
+
+Problema com bootstrap resolvido.
