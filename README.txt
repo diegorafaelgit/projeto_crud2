@@ -5,3 +5,7 @@ Criado o vinculo com o banco de dados e a integração com o Vue para a interfac
 Criado o usuario de login
 
 Agora criando a lista de usuarios com o banco de dados.
+
+Criado a lista de usuarios.
+
+Criando formulario para inserir Usuarios.
