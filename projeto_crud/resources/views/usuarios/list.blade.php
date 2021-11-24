@@ -32,7 +32,7 @@
                                 <th scope="row">{{ $u->id }}</th>
                                 <td>{{ $u->name }}</td>
                                 <td>{{ $u->email }}</td>
-                                <td> <a href="usuarios/{{ $u->id }}/edit"></a>Editar</td>
+                                <td> <a href="usuarios/{{ $u->id }}/edit" class="btn btn-info">Editar</button></td>
                                 <td><button class="btn btn-danger">Deletar</button></td>
                             </tr>
                             @endforeach
