@@ -1,66 +1,61 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Projeto CRUD de cadastro de clientes
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este projeto foi desenvolvido na FATEC Araras no 5° semestre na matéria de desenvolvimento de servidores II
+com o objetivo de criar um CRUD de cadastro de usuários utilizando o Laravel.
+## 🚀 Começando
 
-## About Laravel
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Consulte **Implantação** para saber como implantar o projeto.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### 📋 Pré-requisitos
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+De que coisas você precisa para instalar o software e como instalá-lo?
 
-## Learning Laravel
+- Precisa de um computador ⌨️;
+- Laravel instalado na máquina junto com o PHP;
+- XAMPP para rodar no servidor remoto
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 🔧 Instalação
+Baixe o site do Git Hub:
+https://github.com/diegorafaelgit/projeto_crud2
+## PHP
+Link para instalar o PHP:
+https://windows.php.net/download#php-8.0
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Link para baixar o XAMPP:
+https://www.apachefriends.org/pt_br/download.html
 
-## Laravel Sponsors
+Como instalar o Laravel pelo prompt:
+Instalar o composer
+https://getcomposer.org/
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+E para rodar no servidor com o XAMPP ativado o APACHE e o SQL:
+php artisan serve
 
-### Premium Partners
+## ⚙️ Executando os testes
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
+A tela inicial é a tela de login, onde você pode logar na sua conta ou se ainda não tiver uma pode-se cadastrar.
 
-## Contributing
+Na tela de home você poderá ir para tela de lista de usuarios e verificar os clientes que estao cadastrados e seus dados, podendo criar um novo usuario, ou podendo alterar e excluir os existentes.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## 📦 Desenvolvimento
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+O sistema foi desenvolvido apenas para o cadastro de clientes e o recolhimento dos seus dados podendo se alterar e excluir.
 
-## Security Vulnerabilities
+## 🛠️ Construído com
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+HTML;
+CSS;
+Bootstrap;
+PHP;
+Laravel;
 
-## License
+## ✒️ Autores
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* **Um desenvolvedor** Diego Rafael Thomas (https://github.com/diegorafaelgit)
+
+## 🎁 Expressões de gratidão
+
+* Agradecimento a todos os professores da FATEC pelo aprendizado, em especial ao prof. Orlando que coordenou as aulas de Desenvolvimento de servidores II.
