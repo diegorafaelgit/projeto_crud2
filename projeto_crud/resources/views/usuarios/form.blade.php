@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    <a href="{{url('usuarios')}}">Voltar</a>
+                    <a class="btn btn-danger" href="{{url('usuarios')}}">Voltar</a>
                 </div>
 
                 <div class="card-body">
